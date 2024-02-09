@@ -1,0 +1,32 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: calc(1714.05 / 1920 * 100%);
+    margin: 0 auto;
+    margin-bottom: 124px;
+}
+
+.title {
+    font-size: 34px;
+    color: black;
+    font-weight: 700;
+}
+
+.box {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+@media screen and (max-width: 1792px) {
+    .section {
+        width: calc(1850.05 / 1920 * 100%);
+    }
+}
+
+@media screen and (max-width: 1309px) {
+    .box {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,50 @@
+.section {
+    display: grid;
+    grid-template-columns: 16.7% 6.25% 6.25% 7.76% 7.76% 7.35% 8.82% 8.82% 8.088% 22.17%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.modifyIndo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.infoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 25px 0 25px 0;
+    border: 1px solid #D3D8E6;
+    border-width: 1px, 1px, 1px, 0px;
+    border-style: solid;
+    background-color: #F0F5FF;
+}
+
+.info {
+    border: 1px solid #D3D8E6;
+    border-width: 1px, 1px, 1px, 0px;
+    border-style: solid;
+    border-color: #D3D8E6;
+    padding: 25px 0 25px 0;
+    width: 100%;
+    background-color: #F0F5FF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button {
+    width: 16px;
+    height: 24px;
+    background-image: url(./button2.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: inherit;
+    cursor: pointer;
+}

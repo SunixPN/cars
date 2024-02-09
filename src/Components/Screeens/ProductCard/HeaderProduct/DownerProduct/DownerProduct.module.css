@@ -1,0 +1,186 @@
+.downer {
+    width: 100%;
+    padding: 11.5px 0 0px 0;
+    margin-bottom: 10.5px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(1714.05 / 1920 * 100%);
+    margin: 0 auto;
+}
+
+.navigate {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    width: 225px;
+    height: 59px;
+}
+
+.list {
+    display: flex;
+    gap: 24px;
+}
+
+.link {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+    transition: 0.3s;
+}
+
+.link:hover {
+    border-color: #004DD5;
+}
+
+.active {
+    border-bottom: 1px solid #004DD5;
+}
+
+.panels {
+    display: flex;
+    align-items: center;
+    gap: 34.15px;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 1792px) {
+    .wrapper {
+        width: calc(1850.05 / 1920 * 100%);
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .wrapper {
+        width: calc(1854.05 / 1920 * 100%);
+    }
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1112px) {
+    .list {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .panels {
+        gap: 16px;
+    }
+
+    .burger {
+        display: block;
+        width: 44px;
+        height: 44px;
+        background-color: inherit;
+        background-image: url(./burger.svg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .dropB {
+        padding: 10px;
+        position: absolute;
+        right: 0;
+        width: 200px;
+        top: 150%;
+        background-color: white;
+        z-index: 2;
+        border-radius: 4px;
+        transform-origin: 0 0;
+        transform: rotateX(0deg);
+        transition: 0.3s;
+    }
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6B7A99;
+}
+
+.blockLink {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.arrow {
+    background-color: inherit;
+    background-image: url(./Button.svg);
+    background-position: center;
+    background-size: cover;
+    width: 14px;
+    height: 7px;
+    cursor: pointer;
+}
+
+.drop {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    width: 210px;
+    top: 150%;
+    background-color: white;
+    z-index: 2;
+    border-radius: 4px;
+    transform-origin: 0 0;
+    transform: rotateX(0deg);
+    transition: 0.3s;
+}
+
+.listDrop {
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    transform: rotateX(90deg);
+}
+
+.listLink {
+    display: block;
+    padding: 8px;
+    transition: 0.3s;
+    border-radius: 4px;
+    color: black;
+}
+
+.listLink:hover {
+    background-color: #004DD5;
+    color: white;
+}
+
+.fav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color: #004DD5;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,36 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 8.5px;
+    width: calc(1714.05 / 1920 * 100%);
+    margin: 89px auto 0 auto;
+}
+
+.title {
+    font-size: 46px;
+    color: black;
+    font-weight: 400;
+    line-height: 54px;
+}
+
+.text {
+    display: flex;
+    gap: 60px;
+}
+
+.seo {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+    .text {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .seo {
+        font-size: 16px;
+    }
+}

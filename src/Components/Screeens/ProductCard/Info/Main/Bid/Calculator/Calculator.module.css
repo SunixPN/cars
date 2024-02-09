@@ -1,0 +1,97 @@
+.modalCalc {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.up {
+    display: flex;
+    flex-direction: column;
+    padding: 0 54px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.bidCount {
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.inputCalc {
+    padding: 7px 11px;
+    border-radius: 6px;
+    border: 1px solid #e5e5ea;
+    color: #575757;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 4px;
+}
+
+.inputCalc:focus {
+    border-color: #0050cf;
+}
+
+.min {
+    color: #6b7a99;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.price {
+    padding: 28px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #edf6ff;
+    border-radius: 4px;
+    border: 1px solid #d3d8e5;
+    align-items: center;
+}
+
+.priceText {
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+.priceCount {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.table {
+    margin: 32px 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 54px;
+}
+
+.elem {
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #6b7a99;
+}
+
+.prop {
+    font-size: 14px;
+    color: #575757;
+    font-weight: 400;
+}
+
+.valueModal {
+    font-size: 14px;
+    color: #575757;
+    font-weight: 700;
+}

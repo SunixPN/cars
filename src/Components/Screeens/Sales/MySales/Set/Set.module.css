@@ -1,0 +1,93 @@
+.set {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    flex: 1 1 auto;
+    align-items: flex-start;
+}
+
+.box {
+    border-bottom: 1px solid rgb(107, 122, 153);
+    padding-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.file {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: flex-start;
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.input {
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
+}
+
+.label {
+    padding: 54px 45px;
+    border: 1px dashed #0050cf;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0050cf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 235px;
+    cursor: pointer;
+}
+
+
+.blockPhotos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image {
+    max-width: 300px;
+    height: auto;
+}
+
+@media screen and (max-width: 1309px) {
+    .set {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 709px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 408px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,20 @@
+.image {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 46px;
+    height: 46px;
+    background-image: url(./zoom.png);
+    background-position: center;
+    background-size: cover; 
+    cursor: pointer;
+}

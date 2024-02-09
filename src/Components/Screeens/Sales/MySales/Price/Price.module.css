@@ -1,0 +1,14 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 124px;
+    flex: 1 1 auto;
+}
+
+@media screen and (max-width: 1309px) {
+    .section {
+        width: 100%;
+    }
+}

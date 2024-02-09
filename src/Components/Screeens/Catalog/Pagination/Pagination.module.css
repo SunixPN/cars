@@ -1,0 +1,34 @@
+.pagination {
+    width: calc(1714.05 / 1920 * 100%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 72px;
+    align-items: center;
+}
+
+.buttonLeft {
+    width: 24px;
+    height: 24px;
+    background-image: url(./arrow-left.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.buttonRight {
+    width: 24px;
+    height: 24px;
+    background-image: url(./arrow-right.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.numbers {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}

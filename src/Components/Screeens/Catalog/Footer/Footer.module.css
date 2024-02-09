@@ -1,0 +1,125 @@
+.footer {
+    width: 100%;
+    margin-top: 100px;
+    background-color: #002D6E;
+    padding: 40px 0 28px 0;
+}
+
+.wrapper {
+    width: calc(1714.05 / 1920 * 100%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.links {
+    display: grid;
+    gap: 93px;
+    grid-template-columns: 142px 235px 235px 235px 235px;
+    border-bottom: 1px solid #FFFFFF1A;
+    padding-bottom: 48px;
+}
+
+.linkBlock {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 93px;
+}
+
+.linkBlock:first-child {
+    margin-left: 0;
+}
+
+.linkBlock::after {
+    content: "";
+    position: absolute;
+    right: -93px;
+    top: 0;
+    width: 1px;
+    height: 116px;
+    background-color: rgba(255, 255, 255, 0.11);
+
+}
+
+.linkBlock:last-child::after {
+    content: "";
+    display: none;
+}
+
+.title {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+}
+
+.link {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.link:last-child {
+    margin-bottom: 0;
+}
+
+.down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: rotate(25deg);
+}
+
+@media screen and (max-width: 1636px) {
+    .links {
+        grid-template-columns: 142px 235px 235px;
+    }
+
+    .linkBlock:nth-child(4) {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 964px) {
+    .linkBlock:nth-child(3),
+    .linkBlock:nth-child(4),
+    .linkBlock:nth-child(5) {
+        display: none;
+    }
+
+    .links {
+        grid-template-columns: 142px;
+    }
+
+    .linkBlock:nth-child(2) {
+        margin-left: 0;
+    }
+}

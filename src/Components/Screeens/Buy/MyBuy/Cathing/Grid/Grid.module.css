@@ -1,0 +1,100 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.elem {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #d3d8e6;
+    border-radius: 12px;
+}
+
+.image {
+    max-width: 200px;
+    height: 150px;
+    border-radius: 12px
+}
+
+.info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.down {
+    display: flex;
+    gap: 15px;
+}
+
+.downInfo1 {
+    padding-right: 24px;
+    border-right: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.numLot {
+    color: #b9212e;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.type {
+    color: #6b7a99;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.downInfo2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nothing {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1111px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .elem {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image {
+        width: 100%;
+        max-width: none;
+        height: auto;
+    }
+}

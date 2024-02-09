@@ -1,0 +1,139 @@
+.search {
+    display: flex;
+    position: relative;
+}
+
+.input {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7A99;
+    padding: 12px 0 12px 12px;
+    border: 1px solid #D3D8E6;
+    border-radius: 1px;
+    outline: none;
+    width: 405px;
+}
+
+.inputAuth {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7A99;
+    padding: 12px 0 12px 12px;
+    border: 1px solid #D3D8E6;
+    border-radius: 1px;
+    outline: none;
+    width: 405px;
+}
+
+.icon {
+    width: 49px;
+    height: 44px;
+    background-image: url(./search.svg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1540px) {
+    .inputAuth {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    .inputAuth {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1471px) {
+    .input {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1312px) {
+    .input {
+        display: none;
+    }
+}
+
+.drop {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #6b7a9943;
+    background-color: white;
+    overflow-y: auto;
+    height: 300px;
+    width: 500px;
+    z-index: 3;
+    gap: 10px;
+    transform-origin: 0 0;
+    transition: 0.3s;
+    transform: rotateX(0deg);
+    opacity: 1;
+}
+
+.nothing {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.p {
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+.hidden {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #6b7a9943;
+    background-color: white;
+    overflow-y: auto;
+    height: 300px;
+    width: 500px;
+    z-index: 3;
+    gap: 10px;
+    transform-origin: 0 0;
+    transition: 0.3s;
+    transform: rotateX(90deg);
+    opacity: 0;
+}
+
+@media screen and (max-width: 585px) {
+    .drop {
+        width: 300px;
+    }
+
+    .hidden {
+        width: 300px;
+    }
+
+    .results {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

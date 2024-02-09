@@ -1,0 +1,38 @@
+.fiveth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.hidden {
+    display: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tarif {
+    padding: 12px;
+    border: 1px solid #d3d8e5;
+    border-radius: 4px;
+}
+
+.textBlock {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.description {
+    color: #d3d8e5;
+    font-weight: 400;
+}

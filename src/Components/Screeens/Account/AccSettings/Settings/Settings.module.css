@@ -1,0 +1,35 @@
+.settings {
+    padding: 8px 12px;
+    border: 1px solid rgb(211, 216, 229);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 20%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 auto;
+}
+
+
+
+.exit {
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .settings {
+        height: auto;
+        width: 100%;
+    }
+
+    .exit {
+        margin-top: 10px;
+    }
+}

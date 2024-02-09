@@ -1,0 +1,196 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex: 1 1 auto;
+}
+
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.change {
+    color: #004dd5;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.agreement {
+    color: #004dd5;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.box {
+    border-bottom: 1px solid #6b7a99;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titleGrid {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.value {
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #d3d8e5;
+}
+
+.titleBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.passwordBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #d3d8e5;
+    outline: none;
+    align-self: flex-start;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.input:focus {
+    border-color: #3498ff;
+}
+
+.infoCompany {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.filesGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 32px;
+    row-gap: 14px;
+    column-gap: 50px;
+}
+
+.elemGrid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #6b7a99;
+    padding-bottom: 14px;
+}
+
+.box:last-child {
+    border: 0;
+}
+
+.doc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757; 
+}
+
+@media screen and (max-width: 1050px) {
+    .profile {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 771px) {
+    .data {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filesGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 673px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .infoCompany {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    .titleBox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,107 @@
+.car {
+    display: grid;
+    grid-template-columns: 16.7% 6.25% 6.25% 7.76% 7.76% 7.35% 8.82% 8.82% 8.088% 22.17%; /* 1360 */
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.info {
+    border: 1px solid #C0C6D1;
+    border-top: 0px;
+    border-style: solid;
+    border-color: #C0C6D1;
+    width: 100%;
+    padding: 45px 0 45px 0; 
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.buttonBox {
+    border: 1px solid #C0C6D1;
+    border-top: 0px;
+    border-style: solid;
+    border-color: #C0C6D1;
+    width: 100%;
+    padding: 13px 0 13px 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: calc(190 / 220 * 100%);
+    margin: 0 auto;
+}
+
+.link {
+    font-size: 16px;
+    color:#004DD5;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.linkInfo {
+    border: 1px solid #C0C6D1;
+    border-top: 0px;
+    border-style: solid;
+    border-color: #C0C6D1;
+    width: 100%;
+    padding: 45px 0 45px 0; 
+    height: 100%;
+    font-size: 16px;
+    color:#004DD5;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.imageCar {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(./favorite-d.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+}
+
+.buttonActive {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(./favorites-a.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+}
+
+.linkProduct {
+    font-weight: 700;
+    padding: 12px 32px 12px 32px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+    background-color: #004DD5;
+}

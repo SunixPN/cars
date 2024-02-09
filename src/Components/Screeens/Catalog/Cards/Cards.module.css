@@ -1,0 +1,14 @@
+.section {
+    display: flex;
+    gap: 36px;
+    align-items: flex-start;
+    width: calc(1714.05 / 1920 * 100%);
+    margin: 64.5px auto 0 auto;
+    min-width: 0;
+}
+
+@media screen and (max-width: 1792px) {
+    .section {
+        width: calc(1850.05 / 1920 * 100%);
+    }
+}

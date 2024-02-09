@@ -1,0 +1,141 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.buttonActive {
+    cursor: pointer;
+    color: rgb(0, 77, 213);
+    border: 1px solid rgb(0, 77, 213);
+    border-radius: 40px;
+    background-color: inherit;
+    padding: 12px 20px;
+    transition: 0.3s;
+}
+
+.button {
+    cursor: pointer;
+    color: rgb(107, 122, 153);
+    border: 1px solid rgb(237, 239, 243);
+    background: rgb(237, 239, 243);
+    padding: 12px 20px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+}
+
+.chooses {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.choose {
+    color: black;
+    background-color: inherit;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.chooseActive {
+    background-color: inherit;
+    color: rgb(0, 77, 213);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.choose:first-child {
+    padding-right: 24px;
+    border-right: 1px solid black;
+}
+
+.chooseActive:first-child {
+    padding-right: 24px;
+    border-right: 1px solid black;
+}
+
+.date {
+    margin-left: 24px;
+    margin-right: 42px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 7px 10px;
+    border: 1px solid #e5e5ea;
+    position: relative;
+    border-radius: 4px;
+}
+
+.input {
+    position: absolute;
+    right: 10px;
+    opacity: 0;
+    z-index: 1;
+    width: 16px;
+    height: 16px;
+}
+
+.label {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.textDate {
+    color: #575757;
+    font-weight: 400;
+}
+
+.searching {
+    font-weight: 700;
+    color: black;
+}
+
+.fade {
+    color: rgb(107, 122, 153);
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1030px) {
+    .box {
+       flex-direction: column-reverse;
+       align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .chooses {
+        display: none;
+    }
+    .date {
+        margin-left: 0;
+    }
+    .box {
+        gap: 20px;
+     }
+}

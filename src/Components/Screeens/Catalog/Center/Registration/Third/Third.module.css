@@ -1,0 +1,46 @@
+.third {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.hidden {
+    display: none;
+}
+
+.files {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.file {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.label {
+    cursor: pointer;
+    color: #0050cf;
+    font-weight: 700;
+    position: relative;
+}
+
+.fileName {
+    color: #6b7a99;
+    font-weight: 700;
+}

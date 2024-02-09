@@ -1,0 +1,28 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.reg {
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.count {
+    padding: 6px 16px;
+    background-color: #66c314;
+    color: white;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 20px;
+}

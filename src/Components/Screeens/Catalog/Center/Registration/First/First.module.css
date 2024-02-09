@@ -1,0 +1,25 @@
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.hidden {
+    display: none;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    margin-bottom: 24px;
+}

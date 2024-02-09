@@ -1,0 +1,74 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.linkBlock {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.image {
+    width: 14px;
+    height: 14px;
+}
+
+.link {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+.headInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 36px;
+    color: black;
+    font-weight: 700;
+}
+
+.additionally {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+}
+
+.textActive {
+    font-size: 16px;
+    color: #0065b0;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 16px;
+    color: #6b7a99;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1420px) {
+    .headInfo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}

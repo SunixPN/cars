@@ -1,0 +1,21 @@
+.elem {
+    transition: 0.3s;
+}
+
+.box {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(211, 216, 229);
+    padding-inline: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box:hover .elem {
+    color: rgb(0, 77, 213);
+}
+
+.active {
+    color: rgb(0, 77, 213);
+}

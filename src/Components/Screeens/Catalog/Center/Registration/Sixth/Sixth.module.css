@@ -1,0 +1,44 @@
+.sixth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.hidden {
+    display: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tarif {
+    padding: 12px;
+    border: 1px solid #d3d8e5;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.description {
+    color: #d3d8e5;
+    font-weight: 400;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #004dd5;
+    padding: 12px 32px 12px 32px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}

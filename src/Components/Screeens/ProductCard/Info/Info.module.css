@@ -1,0 +1,15 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: calc(1714.05 / 1920 * 100%);
+    margin: 0 auto;
+    margin-bottom: 124px;
+}
+
+@media screen and (max-width: 1792px) {
+    .section {
+        width: calc(1850.05 / 1920 * 100%);
+    }
+}
+

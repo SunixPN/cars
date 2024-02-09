@@ -1,0 +1,51 @@
+.list {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border: 1px solid #F0F2F5;
+    background-color: white;
+    transition: 0.5s;
+    padding: 12px;
+    left: 0;
+    cursor: pointer;
+    transform-origin: 0 0;
+    transform: rotateX(0deg);
+    z-index: 2;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.listing {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.point {
+    font-size: 16px;
+    color: black;
+    transition: 0.5s;
+    padding: 10px 0 10px 12px;
+    border-radius: 4px;
+}
+
+.point:hover {
+    background-color: #004DD5;
+    color: white;
+}
+
+.hiiden {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border: 1px solid #F0F2F5;
+    background-color: white;
+    padding: 12px;
+    left: 0;
+    cursor: pointer;
+    transform-origin: 0 0;
+    transform: rotateX(90deg);
+    transition: 0.5s;
+    z-index: 2;
+}

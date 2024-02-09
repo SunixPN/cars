@@ -1,0 +1,26 @@
+.filter {
+    padding: 8px 14px 8px 14px;
+    background-color: #7C89A3;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.button {
+    width: 16px;
+    height: 16px;
+    background-image: url(./delete.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: inherit;
+    cursor: pointer;
+    min-width: 16px;
+}

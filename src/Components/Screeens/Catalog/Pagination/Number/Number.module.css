@@ -1,0 +1,26 @@
+.number {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    padding: 10px 15px 10px 16px;
+    border-radius: 8px;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.numberActive {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 15px 10px 16px;
+    border-radius: 8px;
+    background-color: #0050CF;
+    cursor: pointer;
+}
+
+.number:hover {
+    background-color: #EDEFF3;
+}

@@ -1,0 +1,62 @@
+.tarif {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-bottom: 1px solid #6b7a99;
+    padding-bottom: 40px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameTarif {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.description {
+    color: #6b7a99;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.change {
+    display: flex;
+    flex-direction: column;
+}
+
+.changeTitle {
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameTarifChoose {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.descriptionChoose {
+    color: #6b7a99;
+    font-size: 18px;
+    font-weight: 400;
+}

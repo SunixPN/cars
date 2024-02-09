@@ -1,0 +1,92 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textTitle {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.reg {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.regText {
+    color: #0f0f14;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label {
+    font-size: 18px;
+    color: #0f0f14;
+    font-weight: 400;
+}
+
+.inputLog {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 7px 11px;
+    transition: 0.3s;
+    border: 1px solid #e5e5ea;
+    min-height: 50px;
+    color: #575757;
+    outline: none;
+}
+
+.inputLog:focus {
+    border-color: #3498ff;
+}
+
+.continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    color: #3a74d0;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.error {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(245, 39, 39);
+    transform: translateY(-20px);
+    opacity: 1;
+    position: static;
+    transition: 0.3s;
+}
+
+.hidden {
+    position: absolute;
+    opacity: 0;
+    transform: translateY(0);
+}

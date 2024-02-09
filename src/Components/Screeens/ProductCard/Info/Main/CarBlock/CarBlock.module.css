@@ -1,0 +1,83 @@
+.carBlock {
+    max-width: 100%;
+    width: 33.3333333%;
+}
+
+.grid {
+    display: grid;
+    column-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.car {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 16px;
+}
+
+.about {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.text {
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.arrow {
+    width: 14px;
+    height: 14px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttonFirst {
+    color: #004dd5;
+    background-color: inherit;
+    font-size: 14px;
+    text-decoration: underline;
+    padding-right: 8px;
+    border-right: 1px solid #004dd5;
+    cursor: pointer;
+}
+
+.button {
+    color: #004dd5;
+    background-color: inherit;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1420px) {
+    .carBlock {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about {
+        display: none;
+    }
+
+    .grid {
+        display: none;
+    }
+}
+

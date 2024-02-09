@@ -1,0 +1,94 @@
+.car {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #F8F8F8;
+    border-radius: 4px;
+    padding-bottom: 19.5px;
+}
+
+.name {
+    margin-top: 12px;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.properties {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    width: 95%;
+}
+
+.property {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.property:last-child {
+    border: 0;
+}
+
+.title {
+    font-size: 16px;
+    color: #6B7A99;
+    font-weight: 400;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.buttonBox {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.stav {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.money {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.link {
+    margin-top: 24px;
+    color: #004DD5;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.linkProduct {
+    font-weight: 700;
+    padding: 12px 32px 12px 32px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+    background-color: #004DD5;
+}

@@ -1,0 +1,25 @@
+.filter {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .filter {
+        display: flex;
+        padding: 10px 16px 10px 16px;
+        border-radius: 4px;
+        align-items: center;
+        gap: 8px;   
+        background-color: #0050CF;
+    }
+    
+    .span {
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+}

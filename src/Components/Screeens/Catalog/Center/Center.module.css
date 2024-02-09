@@ -1,0 +1,111 @@
+.section {
+    width: 100%;
+    background: linear-gradient(310.13deg, rgba(116, 137, 210, 0.2) 20.31%, rgba(247, 249, 253, 0.2) 49.21%),
+    linear-gradient(0deg, #F7F9FD, #F7F9FD);
+    padding: 152px 0 152px 113px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.text {
+    font-size: 54px;
+    font-weight: 400;
+    color: black;
+    max-width: 800px;
+    line-height: 54px;
+}
+
+.buttonBox {
+    display: flex;
+    gap: 24px;
+}
+
+.car {
+    background-image: url(./car.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 993px;
+    height: 500px;
+    position: absolute;
+    right: 1%;
+    top: -1%;
+}
+
+@media screen and (max-width: 1792px) {
+    .section {
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1690px) {
+    .car {
+        background-image: url(./1440.png);
+        right: 0%;
+    }
+}
+
+@media screen and (max-width: 1262px) {
+    .car {
+        background-image: url(./1240.png)
+    }
+
+    .text {
+        font-size: 44px;
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .car {
+        background-image: url(./1000.png);
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .text {
+        font-size: 28px;
+        max-width: 343px;
+        line-height: 42px;
+    }
+
+    .car {
+        background-image: url(./700.png); 
+        top: -6%;
+    }
+
+    .section {
+        padding-top: 77px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        padding-bottom: 225px;
+    }
+
+    .car {
+        top: 9%;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    .section {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section {
+        padding-left: 5px;
+    }
+}
